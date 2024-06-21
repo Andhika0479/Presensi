@@ -1,7 +1,6 @@
-@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:presensi_app/screen/splash_screen.dart';
-import 'package:intl/date_symbol_data_local.dart'; 
+import 'package:intl/date_symbol_data_local.dart';
 
 Future<void> main() async {
   //untuk format tanggal indonesia
@@ -11,10 +10,11 @@ Future<void> main() async {
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title:'Presensi App',
+      title: 'Presensi App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
