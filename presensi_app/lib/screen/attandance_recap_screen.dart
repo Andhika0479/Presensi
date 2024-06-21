@@ -9,7 +9,7 @@ class AttandanceRecapScreen extends StatefulWidget {
   State<AttandanceRecapScreen> createState() {
     return _AttandanceRecapSreenApp();
   }
-}s
+}
 
 class _AttandanceRecapSreenApp extends State<AttandanceRecapScreen> {
   @override
